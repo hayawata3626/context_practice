@@ -1,0 +1,51 @@
+body {
+  background: #fff;
+  padding: 20px;
+  font-family: Helvetica;
+  color:#fff;
+  margin: 0;
+  padding: 0;
+}
+
+.parents, .child, .grandChildren {
+  padding: 20px;
+}
+
+.child, .grandChildren {
+  margin-left: 30px;
+}
+
+.parents {
+  background:rgba(25,127,195,.88);
+  width: 100vw;
+  height: 100vh;
+}
+
+.child {
+ background: #81b2d8;
+ width: 90%;
+ height: 90%;
+}
+
+.grandChildren {
+  background:#0a2333;
+  width: 90%;
+  height: 90%;
+}
+
+.buttonArea {
+  display: flex;
+  margin-top: 20px;
+}
+
+.buttonArea > button {
+  border: none;
+  width: 100px;
+  padding: 10px;
+}
+
+.buttonArea > button:last-child {
+  margin-left: 20px;
+}
+
+
