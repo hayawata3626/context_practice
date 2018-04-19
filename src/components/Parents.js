@@ -1,7 +1,7 @@
 import React, { createContext } from "react";
 import Child from './Child';
 
-export const Context = createContext()
+const Context = createContext()
 export const { Provider, Consumer } = Context
 
 export class Parents extends React.Component {
